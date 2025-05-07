@@ -16,6 +16,6 @@ const reactApp = {
     children:'Click me to visit Google'
 }
 
-const mainContainer = document.getElementById('#root');
+const mainContainer = document.querySelector('#root');
 
 customRender(reactElement, mainContainer);
